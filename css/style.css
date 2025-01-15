@@ -1,47 +1,58 @@
+/*Regla 4.1*/
 *{
     font-family: 'Roboto', sans-serif;
 }
+/*Regla 4.2*/
 body{
     margin: 0;
     padding-left: 20%;
     padding-right: 20%;
 }
+/*Regla 4.3*/
 h1{
     text-decoration: underline;
     color: darkcyan;
     text-align: center;
 }
+/*Regla 4.4*/
 .selector{
     color: lightcyan;
 }
+/*Regla 4.5*/
 .selectors{
     border: solid darkcyan 1px;
     border-radius: 5px;
 
 }
+/*Regla 4.6*/
 *[id] {
     background-color: lightgoldenrodyellow;
   }
-  
+/*Regla 4.7*/
 h2.selector, h2#id-universal {
     background-color: darkcyan;
     padding: 1%;
     border-radius: 5px;
   }
+  /*Regla 4.8*/
   span{
     font-weight: 900;
   }
+  /*Regla 4.9*/
   li > a{
     text-decoration: none;
   }
+  /*Regla 4.10*/
   h3{
    background-color: rgba(0, 139, 139, 0.529);
    padding: 0.5px;
    border-radius: 5px;
   }
+  /*Regla 4.11*/
   #gallery div {
     width: 100%;
   }
+  /*Regla 4.12*/
     img {
         width: 100%;
         border: solid darkcyan 1px;
